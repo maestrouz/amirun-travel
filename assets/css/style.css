@@ -974,6 +974,7 @@ address {
   .footer-bottom-list {
     justify-content: flex-end;
   }
+  
 }
 
 @media (min-width: 768px) {
@@ -1096,6 +1097,12 @@ address {
 
   .footer-form .btn {
     width: max-content;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .translate{
+    display: flex;
   }
 }
 
