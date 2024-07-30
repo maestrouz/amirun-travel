@@ -108,6 +108,7 @@ body {
   padding: var(--padding, 8px 18px);
   border: var(--border-width, 2px) solid transparent;
   transition: var(--transition);
+  /* margin-left: 214%; */
 }
 
 .btn-primary {
@@ -1122,10 +1123,10 @@ address {
     top: 0;
     left: 0;
     width: 100%;
-    background: #fff;
+    background: #666666;
     /* background: transparent;
     backdrop-filter: blur(20px); */
-    color: #000000;
+    color: #ffffff;
     box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.08);
     transition: var(--transition);
   }
@@ -1154,7 +1155,8 @@ address {
   }
 
   .header.active .navbar-link {
-    color: #000000;
+    color: #fff;
+    ;
   }
 
   .header.active .navbar-link:is(:hover, :focus) {
@@ -1219,6 +1221,15 @@ address {
   }
 }
 
+.footer-dott{
+  margin-top: 5%;
+  text-align: center;
+  align-items: center;
+  margin-left: -65%;
+  font-family: var(--ff-montserrat);
+  font-weight: var(--fw-500);
+}
+
 @media (min-width: 1200px) {
   :root {
     --section-padding: 100px;
@@ -1257,16 +1268,16 @@ address {
 
 ::-webkit-scrollbar {
   width: 0.6rem;
-  background-color: hsl(0, 0%, 10%);
+  background-color: #588cd0;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 0.5rem;
-  background-color: hsl(0, 0%, 20%);
+  background-color: #012c7d;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: hsl(0, 0%, 30%);
+  background-color: #223544;
 }
 .VIpgJd-ZVi9od-ORHb-OEVmcd {
   display: none;

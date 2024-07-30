@@ -48,7 +48,7 @@
             </div>
 
             <div class="wrapper">
-              <p class="helpline-title">For Further Inquires :</p>
+              <p class="helpline-title">Ma'lumot uchun :</p>
 
               <p class="helpline-number">+99890 317 43 02</p>
             </div>
@@ -83,33 +83,21 @@
 
             <ul class="navbar-list">
               <li>
-                <a href="#home" class="navbar-link" data-nav-link>home</a>
+                <a href="#home" class="navbar-link" data-nav-link>Главная</a>
               </li>
 
               <li>
-                <a href="#" class="navbar-link" data-nav-link>about us</a>
-              </li>
-
-              <li>
-                <a href="#destination" class="navbar-link" data-nav-link
-                  >destination</a
-                >
+                <a href="#" class="navbar-link" data-nav-link>о нас </a>
               </li>
 
               <li>
                 <a href="#package" class="navbar-link" data-nav-link
-                  >packages</a
+                  >Тур пакеты</a
                 >
               </li>
 
               <li>
-                <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
-              </li>
-
-              <li>
-                <a href="#contact" class="navbar-link" data-nav-link
-                  >contact us</a
-                >
+                <a href="#gallery" class="navbar-link" data-nav-link>галерея</a>
               </li>
             </ul>
           </nav>
@@ -128,7 +116,7 @@
 
         <section class="hero" id="home">
           <div class="container">
-            <h1 class="motto">Amirun Travel</h1>
+            <h1 translate="no" class="motto">Amirun Travel</h1>
             <h2 translate="no" class="h1 hero-title">Halollik va Ezgulik</h2>
 
             <!-- <p class="hero-text">
@@ -153,35 +141,46 @@
           <div class="container">
             <form action="" class="tour-search-form">
               <div class="input-wrapper">
-                <label for="destination" class="input-label"
-                  >Search Destination</label
-                >
+                <label for="destination" class="input-label"></label>
 
                 <input
                   type="text"
                   name="destination"
                   id="destination"
                   required
-                  placeholder="Enter Destination"
+                  placeholder="Откуда"
                   class="input-field"
                 />
               </div>
 
               <div class="input-wrapper">
-                <label for="people" class="input-label">Pax Number</label>
+                <label for="destination" class="input-label"></label>
+
+                <input
+                  type="text"
+                  name="destination"
+                  id="destination"
+                  required
+                  placeholder="Куда"
+                  class="input-field"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="people" class="input-label"></label>
 
                 <input
                   type="number"
                   name="people"
                   id="people"
                   required
-                  placeholder="No.of People"
+                  placeholder="Пассажир"
                   class="input-field"
                 />
               </div>
 
               <div class="input-wrapper">
-                <label for="checkin" class="input-label">Checkin Date</label>
+                <label for="checkin" class="input-label">Дата начала </label>
 
                 <input
                   type="date"
@@ -193,7 +192,9 @@
               </div>
 
               <div class="input-wrapper">
-                <label for="checkout" class="input-label">Checkout Date</label>
+                <label for="checkout" class="input-label"
+                  >Дата окончания
+                </label>
 
                 <input
                   type="date"
@@ -204,9 +205,7 @@
                 />
               </div>
 
-              <button type="submit" class="btn btn-secondary">
-                Inquire now
-              </button>
+              <button type="submit" class="btn btn-secondary">Поиск</button>
             </form>
           </div>
         </section>
@@ -217,26 +216,20 @@
 
         <section class="popular" id="destination">
           <div class="container">
-            <p class="section-subtitle">Uncover place</p>
-
-            <h2 class="h2 section-title">Popular destination</h2>
+            <h2 class="h2 section-title">Популярное направление</h2>
 
             <p class="section-text">
-              It seems that some of the people here want to spread the word,
-              just the first ones, and not nobody, makeup The appearance of the
-              praisers. Let it be an adornment of resilience it is held that
-              they are fit.
+              Похоже, что некоторые люди здесь хотят распространить информацию,
+              только первые, а не никто, составляют внешний вид хвалителей.
+              Пусть это будет украшением стойкости: считается, что они в хорошей
+              форме.
             </p>
 
             <ul class="popular-list">
               <li>
                 <div class="popular-card">
                   <figure class="card-img">
-                    <img
-                      src="./assets/img/Makkah.jpg"
-                      alt="San miguel, italy"
-                      loading="lazy"
-                    />
+                    <img src="./assets/img/Makkah.jpg" alt="" loading="lazy" />
                   </figure>
 
                   <div class="card-content">
@@ -257,7 +250,8 @@
                     </h3>
 
                     <p class="card-text">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Мы представили для вас пакеты «стандарт», «комфорт»,
+                      «люкс» и «премиум».
                     </p>
                   </div>
                 </div>
@@ -268,7 +262,7 @@
                   <figure class="card-img">
                     <img
                       src="./assets/img/abu_dhabi.jpg"
-                      alt="Burj khalifa, dubai"
+                      alt=""
                       loading="lazy"
                     />
                   </figure>
@@ -291,7 +285,8 @@
                     </h3>
 
                     <p class="card-text">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Возможность совершить поездку по всемирно известным
+                      небоскребам арабского мира.
                     </p>
                   </div>
                 </div>
@@ -302,7 +297,7 @@
                   <figure class="card-img">
                     <img
                       src="./assets/img/thailand.jpg"
-                      alt="Kyoto temple, japan"
+                      alt=""
                       loading="lazy"
                     />
                   </figure>
@@ -321,11 +316,12 @@
                     </p>
 
                     <h3 class="h3 card-title">
-                      <a href="#">Bangkok</a>
+                      <a href="#">Phuket</a>
                     </h3>
 
                     <p class="card-text">
-                      Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                      Теперь для вас Пхукет, известный миру своими
+                      привлекательными островами.
                     </p>
                   </div>
                 </div>
@@ -333,7 +329,7 @@
             </ul>
 
             <a href="./assets/pages/404page.html">
-              <button class="btn btn-primary">More destintion</button>
+              <button class="btn btn-primary">Больше направлений</button>
             </a>
           </div>
         </section>
@@ -344,15 +340,9 @@
 
         <section class="package" id="package">
           <div class="container">
-            <p class="section-subtitle">Popular Packeges</p>
+            <p class="section-subtitle">ПОПУЛЯРНЫЕ ПАКЕТЫ</p>
 
-            <h2 class="h2 section-title">Checkout Our Packeges</h2>
-
-            <p class="section-text">
-              It seems to me that some people want to make this announcement,
-              but only the first ones, and no one else. The appearance of the
-              praisers. Let it be ornamented with elasticity, fit.
-            </p>
+            <h2 class="h2 section-title">Ознакомьтесь с нашими пакетами</h2>
 
             <ul class="package-list">
               <li>
@@ -366,11 +356,11 @@
                   </figure>
 
                   <div class="card-content">
-                    <h3 class="h3 card-title">Umrah pilgrimage</h3>
+                    <h3 class="h3 card-title">УМРА ПАЛОМНИЧЕСТВО</h3>
 
                     <p class="card-text">
-                      Umrah is a period that includes the opportunity for every
-                      pilgrim to renew and purify his life.
+                      Умра – это период, который включает в себя возможность
+                      каждому паломнику обновить и очистить свою жизнь.
                     </p>
 
                     <ul class="card-meta-list">
@@ -378,7 +368,7 @@
                         <div class="meta-box">
                           <ion-icon name="time"></ion-icon>
 
-                          <p class="text">14D</p>
+                          <p class="text">7 д</p>
                         </div>
                       </li>
                       <li class="card-meta-item">
@@ -396,11 +386,11 @@
                   </div>
                   <div class="card-price">
                     <p class="price">
-                      1100$
-                      <span>/ per person</span>
+                      1000$
+                      <span>/ Quad</span>
                     </p>
 
-                    <button class="btn btn-secondary">Book Now</button>
+                    <button class="btn btn-secondary">бронировать</button>
                   </div>
                 </div>
               </li>
@@ -417,19 +407,19 @@
 
                   <div class="card-content">
                     <h3 class="h3 card-title">
-                      Last minute tours to Abu Dhabi, best prices on the market!
+                      ГОРЯЩИЕ ТУРЫ В АБУ-ДАБИ, ЛУЧШИЕ ЦЕНЫ НА РЫНКЕ!
                     </h3>
 
                     <p class="card-text">
-                      We present to your attention the best offers on the route
-                      Abu Dhabi with direct flights from Tashkent!
+                      Представляем Вашему вниманию лучшие предложения по
+                      маршруту Абу-Даби с прямыми рейсами из Ташкента!
                     </p>
 
                     <ul class="card-meta-list">
                       <li class="card-meta-item">
                         <div class="meta-box">
                           <ion-icon name="time"></ion-icon>
-                          <p class="text">8D</p>
+                          <p class="text">8 д</p>
                         </div>
                       </li>
 
@@ -448,11 +438,11 @@
                   </div>
                   <div class="card-price">
                     <p class="price">
-                      $
-                      <span>/ per person</span>
+                      396$
+                      <span>/ на одного человека</span>
                     </p>
 
-                    <button class="btn btn-secondary">Book Now</button>
+                    <button class="btn btn-secondary">бронировать</button>
                   </div>
                 </div>
               </li>
@@ -469,15 +459,13 @@
 
                   <div class="card-content">
                     <h3 class="h3 card-title">
-                      Nemo travel offers unforgettable trips to the Czech
-                      Republic
+                      AMIRUN TRAVEL ПРЕДЛАГАЕТ НЕЗАБЫВАЕМЫЕ ПОЕЗДКИ В ЧЕХИЮ
                     </h3>
 
                     <p class="card-text">
-                      The Czech Republic is one of the most popular tourist
-                      destinations in Europe. This country has many centuries of
-                      rich history, ancient traditions and many interesting
-                      monuments.
+                      Чехия – одно из самых популярных туристических направлений
+                      в Европе. Эта страна имеет многовековую богатую историю,
+                      древние традиции и множество интересных памятников.
                     </p>
 
                     <ul class="card-meta-list">
@@ -485,7 +473,7 @@
                         <div class="meta-box">
                           <ion-icon name="time"></ion-icon>
 
-                          <p class="text">7D/6N</p>
+                          <p class="text">7 д</p>
                         </div>
                       </li>
 
@@ -505,18 +493,18 @@
 
                   <div class="card-price">
                     <p class="price">
-                      $
-                      <span>/ per person</span>
+                      620$
+                      <span>/ на одного человека</span>
                     </p>
 
-                    <button class="btn btn-secondary">Book Now</button>
+                    <button class="btn btn-secondary">бронировать</button>
                   </div>
                 </div>
               </li>
             </ul>
 
             <a href="./assets/pages/packages.html">
-              <button class="btn btn-primary">View All Packages</button>
+              <button class="btn btn-primary">Посмотреть все пакеты</button>
             </a>
           </div>
         </section>
@@ -527,9 +515,9 @@
 
         <section class="gallery" id="gallery">
           <div class="container">
-            <p class="section-subtitle">Photo Gallery</p>
+            <p class="section-subtitle">Фото галерея</p>
 
-            <h2 class="h2 section-title">Photo's From Travellers</h2>
+            <h2 class="h2 section-title">ФОТО ОТ ПУТЕШЕСТВЕННИКОВ</h2>
 
             <ul class="gallery-list">
               <li class="gallery-item">
@@ -586,23 +574,9 @@
 
         <section class="cta" id="contact">
           <div class="container">
-            <div class="cta-content">
-              <p class="section-subtitle">Call To Action</p>
-
-              <h2 class="h2 section-title">
-                Ready For Unforgatable Travel. Remember Us!
-              </h2>
-
-              <!-- <p class="section-text">
-                Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec
-                nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia
-                tenetur, aptent.
-              </p> -->
-            </div>
-
-            <a href="./assets/pages/404page.html">
-              <button class="btn btn-secondary">Contact Us !</button>
-            </a>
+            <h2 class="h2 section-title">
+              Готов к незабываемому путешествию. Помни нас!
+            </h2>
           </div>
         </section>
       </article>
@@ -619,10 +593,14 @@
             <a href="#" class="logo">
               <img src="./assets/img/amirun logo.png" alt="logo" />
             </a>
+            <h3 class="footer-dott">Halollik
+              <br> va 
+              <br>
+               Ezgulik</h3>
           </div>
 
           <div class="footer-contact">
-            <h4 class="contact-title">Contact Us</h4>
+            <h4 class="contact-title">Связаться с нами</h4>
             <ul>
               <li class="contact-item">
                 <ion-icon name="call-outline"></ion-icon>
@@ -643,38 +621,20 @@
               <li class="contact-item">
                 <ion-icon name="location-outline"></ion-icon>
 
-                <address>
-                  location
-                </address>
+                <address>Город Ташкент, Чиланзар 19-кв, улица Ал-Хорезми 5</address>
               </li>
             </ul>
           </div>
 
           <div class="footer-form">
-            <p class="form-text">
-              Subscribe our newsletter for more update & news !!
-            </p>
-
-            <form action="" class="form-wrapper">
-              <input
-                type="email"
-                name="email"
-                class="input-field"
-                placeholder="Enter Your Email"
-                required
-              />
-
-              <button type="submit" class="btn btn-secondary">Subscribe</button>
-            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.757013513381!2d69.19083198734505!3d41.2706262360195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae898aabea36cb%3A0x2485d1a068a1061b!2z0YPQu9C40YbQsCDQkNC7LdCl0L7RgNC10LfQvNC4IDUsIDEwMDE1Mywg0KLQsNGI0LrQtdC90YIsIFRhc2hrZW50LCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1722287676000!5m2!1sru!2s" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
 
       <div class="footer-bottom">
         <div class="container">
-          <p class="copyright">
-            All rights reserved © Amirun Travel 2022-2024
-          </p>
+          <p class="copyright">Copyright © 2024 Amirun Travel</p>
         </div>
       </div>
     </footer>
